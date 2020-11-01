@@ -885,7 +885,7 @@
        
          $("#add").append("<div class=\"col-md-3\">\n" +
             "    <label for=\"state_id\" for=\"state_id\" class=\"text-black\">{{ __('backend.state.state') }}</label>\n" +
-            "    <select id="+c+" class=\" select_state_id_ custom-select @error('state_id') is-invalid @enderror\" name=\"a1[]\">\n" +
+            "    <select id="+c+" class=\" select_state_id_ custom-select @error('state_id') is-invalid @enderror\" name=\"a1\">\n" +
             "        <option selected>{{ __('backend.item.select-state') }}</option>\n" +
             "        @foreach($all_states as $key => $state)\n" +
             "        <option value=\"{{ $state->id }}\" {{ $state->id == old('state_id') ? 'selected' : '' }}>\n" +
@@ -900,7 +900,7 @@
             "</div>\n" +
             "<div class=\"col-md-3\">\n" +
             "    <label for=\"city_id\" class=\"text-black\">{{ __('backend.city.city') }}</label>\n" +
-            "    <select id=\"select_city_id_\" class=\" select_city_id_"+c+" custom-select @error('city_id') is-invalid @enderror\" name=\"a2[]\">\n" +
+            "    <select id=\"select_city_id_\" class=\" select_city_id_"+c+" custom-select @error('city_id') is-invalid @enderror\" name=\"city_id\">\n" +
             "        <option selected>{{ __('backend.item.select-city') }}</option>\n" +
             "    </select>\n" +
             "    @error('city_id')\n" +
