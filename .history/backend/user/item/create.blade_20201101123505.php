@@ -358,10 +358,10 @@
 
                     </div>
 
-
-                    <a class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</a>
-                    <a class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</a>
-
+            
+                        <a class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</a>
+                        <a class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</a>
+                   
 
 
 
