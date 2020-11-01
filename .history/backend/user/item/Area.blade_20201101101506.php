@@ -16,7 +16,7 @@
     @enderror
 </div>
 
-<div class="col-md-4">
+<div class="col-md-6">
     <label for="city_id" class="text-black">{{ __('backend.city.city') }}</label>
     <select id="select_city_id_" class="custom-select @error('city_id') is-invalid @enderror"
         name="city_id">
@@ -29,8 +29,5 @@
     @enderror
 </div>
 <br>
-<button class="btn"><i class="fa fa-home"></i></button>
-<button class="btn"><i class="fa fa-home"></i></button>
-
 <hr>
 <br>

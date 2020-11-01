@@ -29,8 +29,9 @@
     @enderror
 </div>
 <br>
-<button class="btn"><i class="fa fa-home"></i></button>
-<button class="btn"><i class="fa fa-home"></i></button>
-
+<div class="icon-wrapper">
+    <span class="add_attributes"><i class="ti-plus"></i></span>
+    <span class="remove_attributes"><i class="ti-minus"></i></span>
+    </div>
 <hr>
 <br>

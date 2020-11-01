@@ -29,8 +29,5 @@
     @enderror
 </div>
 <br>
-<button class="btn"><i class="fa fa-home"></i></button>
-<button class="btn"><i class="fa fa-home"></i></button>
-
 <hr>
 <br>
