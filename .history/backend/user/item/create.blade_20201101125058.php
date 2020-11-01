@@ -727,45 +727,7 @@
              */
 
 
-                  /**
-             * Start state, city selector
-             */
 
-             $(document).on('change','.select_state_id_',function (e) {
-                 $(this).attr('id');
-                 alert($(this).attr('id'));
-
-                $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
-
-                if(this.value > 0)
-                {
-                    var ajax_url = '/ajax/cities/' + this.value;
-
-                    $.ajaxSetup({
-                        headers: {
-                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                        }
-                    });
-                    jQuery.ajax({
-                        url: ajax_url,
-                        method: 'get',
-                        data: {
-                        },
-                        success: function(result){
-                            console.log(result);
-                            $('.select_city_id_').html('<option selected>Select city</option>');
-                            $.each(JSON.parse(result), function(key, value) {
-                                var city_id = value.id;
-                                var city_name = value.city_name;
-                                $('.select_city_id_').append('<option value="'+ city_id +'">' + city_name + '</option>');
-                            });
-                    }});
-                }
-
-            });
-            /**
-             * End state, city selector
-             */
 
 
              

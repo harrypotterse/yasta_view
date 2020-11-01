@@ -732,8 +732,7 @@
              */
 
              $(document).on('change','.select_state_id_',function (e) {
-                 $(this).attr('id');
-                 alert($(this).attr('id'));
+                 $()
 
                 $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
 
