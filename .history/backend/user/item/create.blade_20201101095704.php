@@ -212,8 +212,7 @@
                                 class="form-control @error('item_lat') is-invalid @enderror" name="item_lat"
                                 value="{{ old('item_lat') }}" aria-describedby="latHelpBlock">
                             <small id="latHelpBlock" class="form-text text-muted">
-                                <a
-                                    class="lat_lng_select_button btn btn-sm btn-primary text-white">{{ __('backend.item.select-map') }}</a>
+                                <a class="lat_lng_select_button btn btn-sm btn-primary text-white">{{ __('backend.item.select-map') }}</a>
                             </small>
                             @error('item_lat')
                             <span class="invalid-tooltip">
@@ -351,7 +350,7 @@
 
                     </div>
                     <!-- End web & social media -->
-                    @include('Area')
+        @include('')
                     <!-- Start custom field section -->
                     <div class="form-row mb-3">
                         <div class="col-md-12">
