@@ -28,9 +28,8 @@
     @enderror
 </div>
 <br>
-<div class="col-md-2">
+<div class="col-md-5"></div>
 <button class="btn btn-success"><i class="fas fa-plus-square"></i> اضافة</button>
 <button class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</button>
-</div>
 <hr>
 <br>
