@@ -757,7 +757,7 @@
                             $.each(JSON.parse(result), function(key, value) {
                                 var city_id = value.id;
                                 var city_name = value.city_name;
-                                $(id).append('<option value="'+ city_id +'">' + city_name + '</option>');
+                                $().append('<option value="'+ city_id +'">' + city_name + '</option>');
                             });
                     }});
                 }

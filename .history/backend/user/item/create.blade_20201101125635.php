@@ -732,10 +732,10 @@
              */
 
              $(document).on('change','.select_state_id_',function (e) {
-               var id= ".select_city_id_"+$(this).attr('id');
+               var id=  $(this).attr('id');
             
 
-                $(id).html('<option selected>Loading, please wait...</option>');
+                $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
 
                 if(this.value > 0)
                 {
@@ -753,11 +753,11 @@
                         },
                         success: function(result){
                             console.log(result);
-                            $(id).html('<option selected>Select city</option>');
+                            $('.select_city_id_').html('<option selected>Select city</option>');
                             $.each(JSON.parse(result), function(key, value) {
                                 var city_id = value.id;
                                 var city_name = value.city_name;
-                                $(id).append('<option value="'+ city_id +'">' + city_name + '</option>');
+                                $('.select_city_id_').append('<option value="'+ city_id +'">' + city_name + '</option>');
                             });
                     }});
                 }
