@@ -1041,12 +1041,12 @@
 
                         <div id="mapid-item" style="display: none;"></div>
                         <small>
-                            @if (!in_array("Select city", explode(",", $item->city_id_m)))
+                            @if ()
+                                
+                            @endif
                             @foreach(explode(",", $item->city_id_m) as $item_subscribe)
                             <button type="button" class="btn btn-primary btn-xs">{{DB::table('cities')->find($item_subscribe)->city_name}}</button>
                             @endforeach
-                            @endif
-                         
                         </small>
                     </div>
                 </div>
