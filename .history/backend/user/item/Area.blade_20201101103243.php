@@ -26,13 +26,9 @@
     </span>
     @enderror
 </div>
-
-<div id="add">
-
-</div>
 <br>
 <div class="col-md-2">
-    <button class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</button>
+    <button class="btn btn-success"><i class="fas fa-plus-square"></i> اضافة</button>
     <button class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</button>
 </div>
 <hr>

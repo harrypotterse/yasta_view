@@ -825,7 +825,7 @@
 
 
 <script>
-    $(document).on('click','.add',function (e) {
+    $(document).on('click','.attribute-field-wrapper .add_attributes',function (e) {
         e.preventDefault();
          $("#add").append('<div class=\"col-md-5\">
             <label for=\"state_id\" class=\"text-black\">{{ __(\'backend.state.state\') }}</label>

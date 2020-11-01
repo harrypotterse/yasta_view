@@ -15,6 +15,7 @@
     </span>
     @enderror
 </div>
+
 <div class="col-md-5">
     <label for="city_id" class="text-black">{{ __('backend.city.city') }}</label>
     <select id="select_city_id_" class="custom-select @error('city_id') is-invalid @enderror" name="city_id">
@@ -26,13 +27,9 @@
     </span>
     @enderror
 </div>
-
-<div id="add">
-
-</div>
 <br>
 <div class="col-md-2">
-    <button class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</button>
+    <button class="btn btn-success"><i class="fas fa-plus-square"></i> اضافة</button>
     <button class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</button>
 </div>
 <hr>
