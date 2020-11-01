@@ -364,7 +364,7 @@
                     </div>
 
 
-
+                    
                     <!-- Start custom field section -->
                     <div class="form-row mb-3">
                         <div class="col-md-12">
@@ -691,9 +691,9 @@
                   /**
              * Start state, city selector
              */
-            $('.select_state_id_').on('change', function() {
+            $('#select_state_id_').on('change', function() {
 
-                $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
+                $('#select_city_id_').html('<option selected>Loading, please wait...</option>');
 
                 if(this.value > 0)
                 {

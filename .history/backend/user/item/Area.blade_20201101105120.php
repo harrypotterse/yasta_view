@@ -17,7 +17,7 @@
 </div>
 <div class="col-md-5">
     <label for="city_id" class="text-black">{{ __('backend.city.city') }}</label>
-    <select id="select_city_id_" class="custom-select @error('city_id') is-invalid @enderror select_city_id_" name="city_id">
+    <select id="select_city_id_" class="custom-select @error('city_id') is-invalid @enderror" name="city_id">
         <option selected>{{ __('backend.item.select-city') }}</option>
     </select>
     @error('city_id')

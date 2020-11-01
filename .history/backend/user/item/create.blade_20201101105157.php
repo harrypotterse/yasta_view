@@ -693,7 +693,7 @@
              */
             $('.select_state_id_').on('change', function() {
 
-                $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
+                $('#select_city_id_').html('<option selected>Loading, please wait...</option>');
 
                 if(this.value > 0)
                 {

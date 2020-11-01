@@ -355,16 +355,8 @@
 
 
                         @include('backend.user.item.Area')
-
+                        
                     </div>
-
-                    <div class="col-md-2">
-                        <a class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</a>
-                        <a class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</a>
-                    </div>
-
-
-
                     <!-- Start custom field section -->
                     <div class="form-row mb-3">
                         <div class="col-md-12">
@@ -691,9 +683,9 @@
                   /**
              * Start state, city selector
              */
-            $('.select_state_id_').on('change', function() {
+            $('#select_state_id_').on('change', function() {
 
-                $('.select_city_id_').html('<option selected>Loading, please wait...</option>');
+                $('#select_city_id_').html('<option selected>Loading, please wait...</option>');
 
                 if(this.value > 0)
                 {
