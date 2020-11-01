@@ -828,26 +828,7 @@
     $(document).on('click','.attribute-field-wrapper .add_attributes',function (e) {
         e.preventDefault();
          $("#add").append('<div class=\"col-md-5\">\n  
-               <label for=\"state_id\" class=\"text-black\">{{ __(\'backend.state.state\') }}</label>\n   
-                <select id=\"select_state_id_\" class=\"custom-select @error(\'state_id\') is-invalid @enderror\" name=\"state_id\">\n   
-                         <option selected>{{ __(\'backend.item.select-state\') }}</option>\n   
-                              @foreach($all_states as $key => $state)\n  
-                                    <option value=\"{{ $state->id }}\" {{ $state->id == old(\'state_id\') ? \'selected\' : \'\' }}>\n  
-                                                  {{ $state->state_name }}</option>\n   
-                                                       @endforeach\n    </select>\n 
-                                                          @error(\'state_id\')\n   
-                                                           <span class=\"invalid-tooltip\">\n 
-                                                                      <strong>{{ $message }}</strong>\n 
-                                                                       </span>\n
-                                                                           @enderror\n
-                                                                        </div>\n
-                                                                        <div class=\"col-md-5\">\n 
-                                                                               <label for=\"city_id\" class=\"text-black\">{{ __(\'backend.city.city\') }}</label>\n
-                                                                                   <select id=\"select_city_id_\" class=\"custom-select @error(\'city_id\') is-invalid @enderror\" name=\"city_id\">\n 
-                                                                                              <option selected>{{ __(\'backend.item.select-city\') }}</option>\n    </select>\n    @error(\'city_id\')\n 
-                                                                                                 <span class=\"invalid-tooltip\">\n        <strong>{{ $message }}</strong>\n    </span>\n    @enderror\n
-                                                                                                </div>');
-
+               <label for=\"state_id\" class=\"text-black\">{{ __(\'backend.state.state\') }}</label>\n    <select id=\"select_state_id_\" class=\"custom-select @error(\'state_id\') is-invalid @enderror\" name=\"state_id\">\n        <option selected>{{ __(\'backend.item.select-state\') }}</option>\n        @foreach($all_states as $key => $state)\n        <option value=\"{{ $state->id }}\" {{ $state->id == old(\'state_id\') ? \'selected\' : \'\' }}>\n            {{ $state->state_name }}</option>\n        @endforeach\n    </select>\n    @error(\'state_id\')\n    <span class=\"invalid-tooltip\">\n        <strong>{{ $message }}</strong>\n    </span>\n    @enderror\n</div>\n<div class=\"col-md-5\">\n    <label for=\"city_id\" class=\"text-black\">{{ __(\'backend.city.city\') }}</label>\n    <select id=\"select_city_id_\" class=\"custom-select @error(\'city_id\') is-invalid @enderror\" name=\"city_id\">\n        <option selected>{{ __(\'backend.item.select-city\') }}</option>\n    </select>\n    @error(\'city_id\')\n    <span class=\"invalid-tooltip\">\n        <strong>{{ $message }}</strong>\n    </span>\n    @enderror\n</div>');
 
      });
 </script>
