@@ -1026,7 +1026,7 @@
                     <div class="col-12">
                         <div id="mapid-item" style="display: none;"></div>
                         <small>
-                            @dd($item->state_id_m)
+                            @dd()
                             @foreach( explode(",", $item->state_id_m) as $item_subscribe)
                          <button type="button" class="btn btn-primary btn-xs">{{DB::table('states')->find($item_subscribe)->state_name}}</button>
 
