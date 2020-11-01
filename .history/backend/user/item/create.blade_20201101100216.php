@@ -351,7 +351,7 @@
 
                     </div>
                     <!-- End web & social media -->
-                    @include('backend.user.item.Area')
+                    @include('backend.Area')
                     <!-- Start custom field section -->
                     <div class="form-row mb-3">
                         <div class="col-md-12">
