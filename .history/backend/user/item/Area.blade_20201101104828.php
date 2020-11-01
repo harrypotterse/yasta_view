@@ -27,8 +27,8 @@
     @enderror
 </div>
 
-<div id="add" class="row">
-
+<div id="add">
+<
 </div>
 <br>
 <div class="col-md-2">
