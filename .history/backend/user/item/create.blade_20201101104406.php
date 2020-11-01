@@ -853,9 +853,8 @@
             "    </span>\n" +
             "    @enderror\n" +
             "</div>');
-            return false;
-     });
 
+     });
 </script>
 
 
