@@ -852,7 +852,7 @@
             "        <strong>{{ $message }}</strong>\n" +
             "    </span>\n" +
             "    @enderror\n" +
-            "</div>");
+            "</div>');
             return false;
      });
 
