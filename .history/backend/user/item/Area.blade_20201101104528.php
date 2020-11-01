@@ -33,7 +33,7 @@
 <br>
 <div class="col-md-2">
     <a class="btn btn-success add"><i class="fas fa-plus-square"></i> اضافة</a>
-    <a class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</a>
+    <a class="btn btn-danger"><i class="fas fa-trash-alt"></i> حذف</{!! link_to_action(action, title = null, parameters = [], attributes = []) !!}>
 </div>
 <hr>
 <br>
