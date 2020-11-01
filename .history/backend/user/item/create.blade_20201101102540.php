@@ -355,7 +355,6 @@
 
               
                     @include('backend.user.item.Area')
-                </div>
                     <!-- Start custom field section -->
                     <div class="form-row mb-3">
                         <div class="col-md-12">
