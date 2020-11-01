@@ -900,7 +900,7 @@
             "</div>\n" +
             "<div class=\"col-md-3\">\n" +
             "    <label for=\"city_id\" class=\"text-black\">{{ __('backend.city.city') }}</label>\n" +
-            "    <select id=\"select_city_id_\" class=\" select_city_id_"+c+" custom-select @error('city_id') is-invalid @enderror\" name=\"city_id\">\n" +
+            "    <select id=\"select_city_id_\" class=\" select_city_id_ "" custom-select @error('city_id') is-invalid @enderror\" name=\"city_id\">\n" +
             "        <option selected>{{ __('backend.item.select-city') }}</option>\n" +
             "    </select>\n" +
             "    @error('city_id')\n" +
