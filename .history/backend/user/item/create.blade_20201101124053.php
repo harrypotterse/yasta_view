@@ -839,10 +839,10 @@
     $(document).on('click','.add',function (e) {
         c++;
        // e.preventDefault();
-       
+       c
          $("#add").append("<div class=\"col-md-3\">\n" +
             "    <label for=\"state_id\" for=\"state_id\" class=\"text-black\">{{ __('backend.state.state') }}</label>\n" +
-            "    <select id=\"\'' + c + '\'" class=\" select_state_id_ custom-select @error('state_id') is-invalid @enderror\" name=\"state_id\">\n" +
+            "    <select id=\"$c\" class=\" select_state_id_ custom-select @error('state_id') is-invalid @enderror\" name=\"state_id\">\n" +
             "        <option selected>{{ __('backend.item.select-state') }}</option>\n" +
             "        @foreach($all_states as $key => $state)\n" +
             "        <option value=\"{{ $state->id }}\" {{ $state->id == old('state_id') ? 'selected' : '' }}>\n" +
