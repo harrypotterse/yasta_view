@@ -221,7 +221,8 @@
                             @enderror
                         </div>
 
-                        <div class="col-md-3" style="display: none;">
+                        <div class="col-md-3" style="
+    display: none;">
                             <label for="item_lng" class="text-black">{{ __('backend.item.lng') }}</label>
                             <input id="item_lng" type="text"
                                 class="form-control @error('item_lng') is-invalid @enderror" name="item_lng"

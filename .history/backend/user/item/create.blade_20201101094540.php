@@ -212,7 +212,7 @@
                                 class="form-control @error('item_lat') is-invalid @enderror" name="item_lat"
                                 value="{{ old('item_lat') }}" aria-describedby="latHelpBlock">
                             <small id="latHelpBlock" class="form-text text-muted">
-                                <a class="lat_lng_select_button btn btn-sm btn-primary text-white">{{ __('backend.item.select-map') }}</a>
+                                <aclass="lat_lng_select_button btn btn-sm btn-primary text-white">{{ __('backend.item.select-map') }}</a>
                             </small>
                             @error('item_lat')
                             <span class="invalid-tooltip">
@@ -221,7 +221,9 @@
                             @enderror
                         </div>
 
-                        <div class="col-md-3" style="display: none;">
+                        <div class="col-md-3" style="
+    display: none;
+">
                             <label for="item_lng" class="text-black">{{ __('backend.item.lng') }}</label>
                             <input id="item_lng" type="text"
                                 class="form-control @error('item_lng') is-invalid @enderror" name="item_lng"
