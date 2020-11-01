@@ -360,6 +360,7 @@
                     <hr>
 
                     <a class="btn btn-success add" style="color: white;"><i class="fas fa-plus-square"></i> اضافة مدن ومحافظات عمل</a>
+                    <a class="btn btn-danger" style="color: white;"><i class="fas fa-trash-alt"></i> حذف</a>
 
 
 

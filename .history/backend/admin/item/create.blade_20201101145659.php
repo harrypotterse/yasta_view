@@ -424,7 +424,7 @@ label{display: block;padding: 20px 0 5px 0;}
                         </div>
                         <hr>
     
-                        <a class="btn btn-success add" style="color: white;"><i class="fas fa-plus-square"></i> اضافة مدن ومحافظات عمل</a>
+                        <a class="btn btn-success add" style="color: white;"><i class="fas fa-plus-square"></i> </a>
                         <!-- Start custom field section -->
                         <div class="form-row mb-3">
                             <div class="col-md-12">
