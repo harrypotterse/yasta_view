@@ -702,7 +702,7 @@
                             $.each(JSON.parse(result), function(key, value) {
                                 var city_id = value.id;
                                 var city_name = value.city_name;
-                                $('#select_city_id_').append('<option value="'+ city_id +'">' + city_name + '</option>');
+                                $('#select_city_id').append('<option value="'+ city_id +'">' + city_name + '</option>');
                             });
                     }});
                 }

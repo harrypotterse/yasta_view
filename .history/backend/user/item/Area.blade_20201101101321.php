@@ -1,7 +1,7 @@
 <hr>
 <div class="col-md-6">
     <label for="state_id" class="text-black">{{ __('backend.state.state') }}</label>
-    <select id="select_state_id_" class="custom-select @error('state_id') is-invalid @enderror"
+    <select id="select_state_id" class="custom-select @error('state_id') is-invalid @enderror"
         name="state_id">
         <option selected>{{ __('backend.item.select-state') }}</option>
         @foreach($all_states as $key => $state)
